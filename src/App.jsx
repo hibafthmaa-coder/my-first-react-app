@@ -1,6 +1,13 @@
+import { FavoriteFood } from "./FavoriteFood";
+import { FavoritePlace } from "./FavoritePlace";
+
 function App() {
   return (
-    <h1>Hello, World!</h1>
+    <>
+      <h1>About Me</h1>
+      <FavoriteFood />
+      <FavoritePlace />
+    </>
   );
 }
 
